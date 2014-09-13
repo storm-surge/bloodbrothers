@@ -22,7 +22,7 @@ if(_unit getVariable["drug_alkohol",false]) then { _alkohol = "Positiv"; } else 
 
 hint parseText format["<t color='#FF0000'><t size='2'>%1</t></t><br/>
 <t color='#FFD700'>Weed: </t>%2<br/>
-<t color='#FFD700'>Cocaine: </t>%3<br/>
-<t color='#FFD700'>Weed: </t>%4<br/>
+<t color='#FFD700'>Koks: </t>%3<br/>
+<t color='#FFD700'>Alk: </t>%4<br/>
 <br/><t color='#FF0000'>%5</t>"
 ,name _unit,_weed,_cocaine,_alkohol];
