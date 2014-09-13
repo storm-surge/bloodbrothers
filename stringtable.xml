@@ -412,13 +412,13 @@
 	</Package>
 	<Package name="Garage_Menu">
 		<Key ID="STR_Garage_Title">
-			<Original>Vehicle Garage</Original>
+			<Original>Vehikel-Garage</Original>
 		</Key>
 		<Key ID="STR_Garage_GetVehicle">
 			<Original> Ausparken</Original>
 		</Key>
 		<Key ID="STR_Garage_SellVehicle">
-			<Original>Vehicle verkaufen</Original>
+			<Original>Vehikel verkaufen</Original>
 		</Key>
 		<Key ID="STR_Garage_SellPrice">
 			<Original>Verkaufspreis</Original>
@@ -433,7 +433,7 @@
 			<Original>Du hast nicht die $%1 um auszuparken.</Original>
 		</Key>
 		<Key ID="STR_Garage_SpawningVeh">
-			<Original>Vehicle wird aus der Garage geholt...</Original>
+			<Original>Vehikel wird aus der Garage geholt...</Original>
 		</Key>
 		<Key ID="STR_Garage_SQLError_Destroyed">
 			<Original>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</Original>
@@ -442,19 +442,19 @@
 			<Original>Sorry but %1 is already active somewhere in the world and cannot be spawned.</Original>
 		</Key>
 		<Key ID="STR_Garage_SpawnPointError">
-			<Original>Du kannst dein Vehicle nicht ausparken, da dort bereits etwas steht.</Original>
+			<Original>Du kannst dein Vehikel nicht ausparken, da dort bereits etwas steht.</Original>
 		</Key>
 		<Key ID="STR_Garage_SoldCar">
-			<Original>Du hast dein Vehicle für $%1 verkauft.</Original>
+			<Original>Du hast dein Vehikel für $%1 verkauft.</Original>
 		</Key>
 		<Key ID="STR_Garage_Store_NotPersistent">
-			<Original>Dieses Vehicle wurde gemietet und kann daher nicht eingelagert werden.</Original>
+			<Original>Dieses Vehikel wurde gemietet und kann daher nicht eingelagert werden.</Original>
 		</Key>
 		<Key ID="STR_Garage_Store_NoOwnership">
-			<Original>Das Vehicle hier gehört dir nicht. Du kannst es nicht einlagern.</Original>
+			<Original>Das Vehikel hier gehört dir nicht. Du kannst es nicht einlagern.</Original>
 		</Key>
 		<Key ID="STR_Garage_Store_Success">
-			<Original>Vehicle in Garage deponiert..</Original>
+			<Original>Vehikel in Garage deponiert..</Original>
 		</Key>
 	</Package>
 	<Package name="Key_Chain">
