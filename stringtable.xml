@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Altis Life RPG">
+	<Package name="Global">
+		<Key ID="STR_Global_Close">
+			<Original>Close</Original>
+		</Key>
+		<Key ID="STR_Global_Sell">
+			<Original>Sell</Original>
+		</Key>
+		<Key ID="STR_Global_Buy">
+			<Original>Buy</Original>
+		</Key>
+		<Key ID="STR_Global_Give">
+			<Original>Give</Original>
+		</Key>
+		<Key ID="STR_Global_Use">
+			<Original>Use</Original>
+		</Key>
+		<Key ID="STR_Global_Remove">
+			<Original>Remove</Original>
+		</Key>
+		<Key ID="STR_Global_Settings">
+			<Original>Settings</Original>
+		</Key>
+		<Key ID="STR_Global_RentVeh">
+			<Original>Rent</Original>
+		</Key>
+		<Key ID="STR_Global_Retrieve">
+			<Original>Retrieve</Original>
+		</Key>
+		<Key ID="STR_Global_NoSelection">
+			<Original>You did not select anything.</Original>
+		</Key>
+		<Key ID="STR_Global_Yes">
+<Original>Yes</Original>
+<English>Yes</English>
+<German>Ja</German>
+<French>Oui</French>
+<Italian>Si</Italian>
+<Portuguese>Sim</Portuguese>
+</Key>
+<Key ID="STR_Global_No">
+<Original>No</Original>
+<English>No</English>
+<German>Nein</German>
+<French>Aucun</French>
+<Italian>No</Italian>
+<Portuguese>Não</Portuguese>
+</Key>
+<Key ID="STR_Global_Cancel">
+<Original>Cancel</Original>
+<English>Cancel</English>
+<German>Abbrechen</German>
+<French>Annulée</French>
+<Italian>Annulla</Italian>
+<Portuguese>Cancelar</Portuguese>
+</Key>
+	</Package>
+	<Package name="FSM_Strings">
+	<Key ID="STR_FSM_Paycheck">
+	<Original>You will receive your next paycheck in %1 minutes</Original>
+	<English>You will receive your next paycheck in %1 minutes</English>
+	<German>Du erhältst deinen nächsten Gehaltsscheck in %1 Minuten</German>
+	<French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
+	<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>	
+	<Portuguese>Você vai receber seu próximo pagamento em %1 minutos</Portuguese>
+	</Key>
+	<Key ID="STR_FSM_MissedPay">
+	<Original>You have missed a paycheck because you were dead.</Original>
+	<English>You have missed a paycheck because you were dead.</English>
+	<German>Du erhältst kein Gehaltsscheck, da du gestorben bist.</German>
+	<French>Vous avez manqué un chèque de paie parce que vous étiez mort.</French>
+	<Italian>Hai perso uno stipendio perche eri morto.</Italian>
+	<Portuguese>Você não recebeu seu pagamento pois estava morto.</Portuguese>
+	</Key>
+	<Key ID="STR_FSM_ReceivedPay">
+	<Original>You have received a paycheck of $%1</Original>
+	<English>You have received a paycheck of $%1</English>
+	<German>Du hast deinen Gehaltscheck in Höhe von $%1 erhalten</German>
+	<French>Vous avez reçu un salaire de $%1</French>
+	<Italian>Hai ricevuto uno stipendio di €%1</Italian>
+	<Portuguese>Você recebeu seu pagamento de R$%1</Portuguese>
+	</Key>
+	</Package>
+	<Package name="Admin_Menu">
+		<Key ID="STR_Admin_Title">
+			<Original>Admin Menu</Original>
+		</Key>
+		<Key ID="STR_Admin_GetID">
+			<Original>Get ID</Original>
+		</Key>
+	</Package>
+	<Package name="ATM_Menu">
+		<Key ID="STR_ATM_Title">
+			<Original>Bank Account Management</Original>
+		</Key>
+		<Key ID="STR_ATM_Withdraw">
+			<Original>Withdraw</Original>
+		</Key>
+		<Key ID="STR_ATM_Deposit">
+			<Original>Deposit</Original>
+		</Key>
+		<Key ID="STR_ATM_Transfer">
+			<Original>Transfer</Original>
+		</Key>
+		<Key ID="STR_ATM_GreaterThan">
+			<Original>You can't deposit more then $999,999 at a time</Original>
+		</Key>
+		<Key ID="STR_ATM_notnumeric">
+			<Original>The amount entered isn't a numeric value.</Original>
+		</Key>
+	</Package>
+		<Package name="Housing_Strings">
+<Key ID="STR_House_ContainerError">
+<Original>Error saving container, couldn't locate house?</Original>
+<English>Error saving container, couldn't locate house?</English>
+<German>Fehler beim Speichern der Container, es konnte kein Haus gefunden werden?</German>
+<French>Erreur lors de la sauvegarde des conteneur, impossible de localiser la maison.</French>
+<Italian>Errore nel salvataggio del contenitore, impossibile trovare la casa?</Italian>
+<Portuguese>Erro ao salvar a caixa, não foi possível encontrar a casa.</Portuguese>
+</Key>
+<Key ID="STR_House_ContainerDeny">
+<Original>You are not allowed to access this storage container without the owner opening it.</Original>
+<English>You are not allowed to access this storage container without the owner opening it.</English>
+<German>Du bist nicht berechtigt, auf diesen Container zuzugreifen, ohne dass der Besitzer ihn aufgeschlossen hat.</German>
+<French>Vous n'êtes pas autorisé à accéder à ce conteneur de stockage sans que le propriétaire ne l'ouvre.</French>
+<Italian>Non sei autorizzato ad accedere a questo contentitore senza il permesso del proprietario.</Italian>
+<Portuguese>Você so pode acessar a caixa se o dono deixar ela aberta.</Portuguese>
+</Key>
+<Key ID="STR_House_Door_Unlock">
+<Original>You have unlocked the door.</Original>
+<English>You have unlocked the door.</English>
+<German>Du hast die Tür aufgeschlossen.</German>
+<French>Vous avez ouvert la porte.</French>
+<Italian>Hai sbloccato la porta.</Italian>
+<Portuguese>Você destrancou a porta.</Portuguese>
+</Key>
+<Key ID="STR_House_Door_Lock">
+<Original>You have locked the door.</Original>
+<English>You have locked the door.</English>
+<German>Du hast die Tür abgeschlossen.</German>
+<French>Vous avez verrouillé la porte.</French>
+<Italian>Hai bloccato la porta.</Italian>
+<Portuguese>VocÊ trancou a porta.</Portuguese>
+</Key>
+<Key ID="STR_House_Door_NotNear">
+<Original>You are not near a door!</Original>
+<English>You are not near a door!</English>
+<German>Keine Tür in der Nähe!</German>
+<French>Vous n'êtes pas près d'une porte!</French>
+<Italian>Non sei vicino ad una porta!</Italian>
+<Portuguese>Você não está perto de uma porta!</Portuguese>
+</Key>
+<Key ID="STR_House_Sell_Process">
+<Original>This house was recently sold and is still processing in the database.</Original>
+<English>This house was recently sold and is still processing in the database.</English>
+<German>Dieses Haus wurde vor Kurzem verkauft.</German>
+<French>Cette maison a été récemment vendu et est en cours de traitement dans la base de données.</French>
+<Italian>Questa casa è stata venduta di recente ed il database la sta ancora processando.</Italian>
+<Portuguese>Essa casa já foi vendida, estamos processando a ordem de compra</Portuguese>
+</Key>
+<Key ID="STR_House_License">
+<Original>You do not have a home owners license!</Original>
+<English>You do not have a home owners license!</English>
+<German>Du hast keine Eigentumsurkunde!</German>
+<French>Vous n'avez pas de permis de propriétaires de maison!</French>
+<Italian>Non hai la licenza per il possesso delle case!</Italian>
+<Portuguese>Você não tem um Registro Civil para comprar casas!</Portuguese>
+</Key>
+<Key ID="STR_House_Max_House">
+<Original>You can only own %1 houses at a time. (As a Donator, you can buy 5 houses.)</Original>
+<English>You can only own %1 houses at a time.</English>
+<German>Du darfst nur %1 Häuser zugleich besitzen.</German>
+<French>Vous ne pouvez posséder que %1 maisons à la fois.</French>
+<Italian>Puoi possedere solo %1 case</Italian>
+<Portuguese>Você só pode ter uma casa!</Portuguese>
+</Key>
+
+<Key ID="STR_House_Max_House_donator">
+<Original>Auch als Donator kannst du nicht mehr als 5 Häuser haben. Lass den anderen ruhig auch etwas übrig.</Original>
+</Key>
+
+
+<Key ID="STR_House_NotEnough">
+<Original>You do not have enough money!</Original>
+<English>You do not have enough money!</English>
+<German>Du hast nicht genug Geld!</German>
+<French>Vous n'avez pas assez d'argent!</French>
+<Italian>Non hai fondi a sufficienza!</Italian>
+<Portuguese>Você não tem todo esse dinheiro!</Portuguese>
+</Key>
+<Key ID="STR_House_BuyMSG">
+<Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
+<English>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</English>
+<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
+<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
+<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
+<Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
+</Key>
+<Key ID="STR_House_Purchase">
+<Original>Purchase House</Original>
+<English>Purchase House</English>
+<German>Haus kaufen</German>
+<French>Acheter la Maison</French>
+<Italian>Compra Casa</Italian>
+<Portuguese>Comprar Casa</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_NoOwner">
+<Original>This house doesn't belong to anyone.</Original>
+<English>This house doesn't belong to anyone.</English>
+<German>Dieses Haus gehört niemandem.</German>
+<French>Cette maison n'appartient à personne.</French>
+<Italian>Questa casa non appartiene a nessuno.</Italian>
+<Portuguese>Essa casa não tem dono.</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_OwnerOff">
+<Original>This person is not online there for you cannot raid their house!</Original>
+<English>This person is not online there for you cannot raid their house!</English>
+<German>Der Hausbesitzer ist nicht online, daher kannst du sein Haus nicht stürmen!</German>
+<French>Cette personne n'est pas en ligne, vous ne pouvez pas perquisitionner cette maison!</French>
+<Italian>Questa persona non è online quindi non puoi perquisire la sua casa!</Italian>
+<Portuguese>O dono da casa não está online, você não pode vasculhar a casa!</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_DoorUnlocked">
+<Original>The door is already unlocked!</Original>	
+<English>The door is already unlocked!</English>
+<German>Die Tür ist bereits offen!</German>
+<French>La porte est déjà débloqué!</French>
+<Italian>La porta è già sbloccata!</Italian>
+<Portuguese>A porta está destrancada!</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_Progress">
+<Original>Breaking lock on door</Original>
+<English>Breaking lock on door</English>
+<German>Türschloss wird aufgebrochen</German>
+<French>En train de casser la sérrure</French>
+<Italian>Sbloccando la porta</Italian>
+<Portuguese>Quebrando a fechadura da porta</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_NOTF">
+<Original>%1 your house is being raided by the cops!</Original>
+<English>%1 your house is being raided by the cops!</English>
+<German>%1 dein Haus wird von der Polizei durchsucht!</German>
+<French>%1 votre maison est perquisitionnée par les flics!</French>
+<Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
+<Portuguese>%1 Sua casa está sendo vasculhada pela Policia!</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_Owner">
+<Original>House Owner</Original>
+<English>House Owner</English>
+<German>Hauseigentümer</German>
+<French>Propriétaire</French>
+<Italian>Proprietario Casa</Italian>
+<Portuguese>Proprietário</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_Nothing">
+<Original>There is nothing in this house.</Original>
+<English>There is nothing in this house.</English>
+<German>Es gibt nichts in diesem Haus.</German>
+<French>Il n'y a rien dans cette maison</French>
+<Italian>In questa casa non c'è nulla.</Italian>
+<Portuguese>Essa casa está vazia.</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_Searching">
+<Original>Searching House...</Original>
+<English>Searching House...</English>
+<German>Haus wird durchsucht...</German>
+<French>Recherche Maison...</French>
+<Italian>Perquisendo la Casa...</Italian>
+<Portuguese>Vasculhando a casa...</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_TooFar">
+<Original>You went too far away from the house!</Original>
+<English>You went too far away from the house!</English>
+<German>Du hast dich zu weit vom Haus entfernt!</German>
+<French>Vous êtes parti trop loin de la maison!</French>
+<Italian>Sei andato troppo distante dalla casa!</Italian>
+<Portuguese>Você está muito distante da casa!</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_Successful">
+<Original>A house was raided and had $%1 worth of drugs / contraband.</Original>
+<English>A house was raided and had $%1 worth of drugs / contraband.</English>
+<German>Ein Haus wurde durchsucht und es wurden Drogen / Schmuggelware im Wert von $% gefunden.</German>
+<French>Une maison a été perquisitionné et a $%1 de drogue / contrebande.</French>
+<Italian>Una casa è stata perquisita e sono stati trovati €%1 in materiali illegali.</Italian>
+<Portuguese>A casa assaltada tem R$%1 em drogas ou contrabandos.</Portuguese>
+</Key>
+<Key ID="STR_House_Raid_NoIllegal">
+<Original>Nothing illegal in this house.</Original>
+<English>Nothing illegal in this house.</English>
+<German>Nichts Illegales in diesem Haus.</German>
+<French>Rien d'illégal dans cette maison</French>
+<Italian>Questa casa non contiene nulla d'illegale.</Italian>
+<Portuguese>Nada ilegal nessa casa.</Portuguese>
+</Key>
+<Key ID="STR_House_StorageUnlock">
+<Original>House storage unlocked</Original>
+<English>House storage unlocked</English>
+<German>Lagerplatz des Hauses geöffnet</German>
+<French>Stockage de la maison déverrouillé</French>
+<Italian>Contenitori della casa sbloccati</Italian>
+<Portuguese>Armário da casa destrancado</Portuguese>
+</Key>
+<Key ID="STR_House_StorageLock">
+<Original>House storage locked</Original>
+<English>House storage locked</English>
+<German>Lagerplatz des Hauses geschlossen</German>
+<French>Stockage de Maison verrouillé</French>
+<Italian>Contenitori della casa bloccati</Italian>
+<Portuguese>Armário da casa trancado</Portuguese>
+</Key>
+<Key ID="STR_House_LockingUp">
+<Original>Locking up house please wait...</Original>
+<English>Locking up house please wait...</English>
+<German>Haus wird abgeschlosen, bitte warten...</German>
+<French>Fermeture de la maison veuiller patienter...</French>
+<Italian>Bloccando la casa, attendere prego...</Italian>
+<Portuguese>Trancando a casa, aguarde...</Portuguese>
+</Key>
+<Key ID="STR_House_LockedUp">
+<Original>House has been locked up.</Original>
+<English>House has been locked up.</English>
+<German>Haus wurde abgeschlossen.</German>
+<Italian>La casa è stata bloccata.</Italian>
+<Portuguese>Sua casa foi trancada!</Portuguese>
+</Key>
+<Key ID="STR_House_SellHouseMSG">
+<Original>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
+<English>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;.</English>
+<German>Bist Du sicher, dass du dein Haus verkaufen möchtest? Es wird für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt; verkauft</German>
+<French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
+<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
+<Portuguese>Você tem certeza que deseja vender a casa? O valor de venda é: &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;</Portuguese>
+</Key>
+</Package>
+	<Package name="Cell_Phone">
+		<Key ID="STR_CELL_Title">
+			<Original>Altis Mobile</Original>
+		</Key>
+		<Key ID="STR_CELL_TextToSend">
+			<Original>Message To Send:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextMSGBtn">
+			<Original>Text Message:</Original>
+		</Key>
+		<Key ID="STR_CELL_TextPolice">
+			<Original>Text Police</Original>
+		</Key>
+		<Key ID="STR_CELL_TextAdmins">
+			<Original>Text Admins</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMsg">
+			<Original>Admin Message</Original>
+		</Key>
+		<Key ID="STR_CELL_AdminMSGAll">
+			<Original>Admin Msg All</Original>
+		</Key>
+		<Key ID="STR_CELL_EMSRequest">
+			<Original>Request EMS</Original>
+		</Key>
+	</Package>
+	<Package name="Chop_Shop">
+		<Key ID="STR_ChopShop_Title">
+			<Original>Local Chop Shop</Original>
+		</Key>
+	</Package>
+	
+	<Package name="Gang_Menu">
+		<Key ID="STR_Gang_Title">
+			<Original>Gang Management</Original>
+		</Key>
+		<Key ID="STR_Gang_UpgradeSlots">
+			<Original>Upgrade Slots</Original>
+		</Key>
+		<Key ID="STR_Gang_Title2">
+			<Original>Gang Management - Current Gangs</Original>
+		</Key>
+		<Key ID="STR_Gang_Join">
+			<Original>Join</Original>
+		</Key>
+		<Key ID="STR_Gang_Leave">
+			<Original>Leave</Original>
+		</Key>
+		
+		<Key ID="STR_Gang_Kick">
+			<Original>Kick</Original>
+		</Key>
+		<Key ID="STR_Gang_SetLeader">
+			<Original>Set Leader</Original>
+		</Key>
+		<Key ID="STR_Gang_PriceTxt">
+			<Original>To create a gang it costs $%1</Original>
+		</Key>
+		<Key ID="STR_Gang_Create">
+			<Original>Create</Original>
+		</Key>
+		<Key ID="STR_Gang_YGN">
+			<Original>Your Gang Name</Original>
+		</Key>
+		<Key ID="STR_Gang_MainMenu">
+			<Original>You aren't in a gang currently, what do you want to do?</Original>
+		</Key>
+		<Key ID="STR_Gang_Browse">
+			<Original>Browse</Original>
+		</Key>
+		<Key ID="STR_Invite_Player">
+		<Original>Invite Player</Original>
+		 </Key>
+		 <Key ID="STR_Disband_Gang">
+		 <Original>Disband Gang</Original>
+		</Key>
+	</Package>
+	<Package name="Garage_Menu">
+		<Key ID="STR_Garage_Title">
+			<Original>Vehicle Garage</Original>
+		</Key>
+		<Key ID="STR_Garage_GetVehicle">
+			<Original> Get Vehicle</Original>
+		</Key>
+		<Key ID="STR_Garage_SellVehicle">
+			<Original>Sell Vehicle</Original>
+		</Key>
+		<Key ID="STR_Garage_SellPrice">
+			<Original>Sell Price</Original>
+		</Key>
+		<Key ID="STR_Garage_SFee">
+			<Original>Storage Fee</Original>
+		</Key>
+		<Key ID="STR_Garage_NoVehicles">
+			<Original>No vehicles found in garage.</Original>
+		</Key>
+		<Key ID="STR_Garage_CashError">
+			<Original>You don't have $%1 in your bank account</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawningVeh">
+			<Original>Spawning vehicle please wait...</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Destroyed">
+			<Original>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</Original>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Active">
+			<Original>Sorry but %1 is already active somewhere in the world and cannot be spawned.</Original>
+		</Key>
+		<Key ID="STR_Garage_SpawnPointError">
+			<Original>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</Original>
+		</Key>
+		<Key ID="STR_Garage_SoldCar">
+			<Original>You sold that vehicle for $%1</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NotPersistent">
+			<Original>That vehicle is a rental and cannot be stored in your garage.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_NoOwnership">
+			<Original>That vehicle doesn't belong to you therefor you cannot store it in your garage.</Original>
+		</Key>
+		<Key ID="STR_Garage_Store_Success">
+			<Original>The vehicle has been stored in your garage.</Original>
+		</Key>
+	</Package>
+	<Package name="Key_Chain">
+		<Key ID="STR_Keys_Title">
+			<Original>Key Chain - Current List of Keys</Original>
+		</Key>
+		<Key ID="STR_Keys_DropKey">
+			<Original>Drop Key</Original>
+		</Key>
+		<Key ID="STR_Keys_GiveKey">
+			<Original>Give Key</Original>
+		</Key>
+	</Package>
+	<Package name="Player_Menu">
+		<Key ID="STR_PM_Title">
+			<Original>Player Menu</Original>
+		</Key>
+		<Key ID="STR_PM_cItems">
+			<Original>Current Items</Original>
+		</Key>
+		<Key ID="STR_PM_Licenses">
+			<Original>Licenses</Original>
+		</Key>
+		<Key ID="STR_PM_MoneyStats">
+			<Original>Money Stats</Original>
+		</Key>
+		<Key ID="STR_PM_MyGang">
+			<Original>My Gang</Original>
+		</Key>
+			<Key ID="STR_GNOTF_DisbandWarn_2">
+		<Original>The leader has disbanded the gang.</Original>
+		</Key>
+		<Key ID="STR_GNOTF_CreateGang">
+<Original>You must create a gang first before capturing it!</Original>
+<English>You must create a gang first before capturing it!</English>
+<German>Du musst erst in einer Gang sein, um einzunehmen zu können!</German>	
+<French>Vous devez créer un gang avant de le capturer!</French>
+<Italian>Devi creare una gang prima di catturarla!</Italian>
+<Portuguese>Você precisa criar uma gangue antes de tentar capturar esse esconderijo!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Controlled">
+<Original>Your gang already has control over this hideout!</Original>
+<English>Your gang already has control over this hideout!</English>
+<German>Deine Gang hat bereits die Kontrolle über dieses Versteck!</German>	
+<French>Votre bande a déjà le contrôle de cette cachette!</French>
+<Italian>La tua Gang ha già il controllo di questo Covo</Italian>
+<Portuguese>Sua gangue já tem controle sobre esse esconderijo!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Captured">
+<Original>Only one person shall capture at once!</Original>
+<English>Only one person shall capture at once!</English>
+<German>Nur eine Person kann das Versteck einnehmen!</German>	
+<French>Une seule personne doit capturer à la fois!</French>
+<Italian>Può conquistare solo una persona alla volta!</Italian>
+<Portuguese>Somente uma pessoa pode capturar!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_AlreadyControlled">
+<Original>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</Original>
+<English>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</English>
+<German>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du ihr Gang Gebiet übernehmen möchtest?</German>
+<French>Cette cachette est contrôlée par %1.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr que vous voulez prendre en charge leur zone de gang?</French>
+<Italian>Questo Covo è controllato da %1.&lt;br/&gt;&lt;br/&gt;Sicuro di voler prendere il controllo della loro area?</Italian>
+<Portuguese>Esse esconderijo é controlado por %1.&lt;br/&gt;&lt;br/&gt;Você tem certeza que deseja tomar essa área?</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_CurrentCapture">
+<Original>Hideout is currently under control...</Original>
+<English>Hideout is currently under control...</English>
+<German>Versteck ist derzeit unter Kontrolle...</German>
+<French>La cachette est actuellement sous contrôle ...</French>
+<Italian>Il Covo è già sotto controllo...</Italian>
+<Portuguese>Esconderijo sobre controle....</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_CaptureCancel">
+<Original>Capturing cancelled</Original>
+<English>Capturing cancelled</English>
+<German>Einnehmen abgebrochen</German>
+<French>Capture annulée</French>
+<Italian>Cattura annullata</Italian>
+<Portuguese>Ação concelada</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Capturing">
+<Original>Capturing Hideout</Original>
+<English>Capturing Hideout</English>
+<German>Versteck einnehmen</German>
+<French>Capture cachette</French>
+<Italian>Catturando il Covo</Italian>
+<Portuguese>Capturando Esconderijo</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_CaptureSuccess">
+<Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
+<English>%1 and his gang: %2 - have taken control of a local hideout!</English>
+<German>%1 und seine Gang: 2% - haben die Kontrolle über ein lokales Versteck übernommen!</German>
+<French>%1 et sa gang: %2 ont pris le controle de la cachette !</French>
+<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+<Portuguese>%1 e sua gangue: %2 - agora tem o controle de um esconderijo!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Over32">
+<Original>You can't have a gang name longer then 32 characters.</Original>
+<English>You can't have a gang name longer then 32 characters.</English>
+<German>Dein Gang Name kann nicht länger als 32 Zeichen sein.</German>
+<French>Vous ne pouvez pas avoir un nom de gang de plus de 32 caractères.</French>
+<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+<Portuguese>O nome de sua gangue não pode ter mais de 32 caracteres.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_IncorrectChar">
+<Original>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</Original>
+<English>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</English>
+<German>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</German>	
+<French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</French>
+<Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
+<Portuguese>O nome da sua gangue tem caracteres inválidos. O nome so pode conter caracteres e números separados por sublinhado</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_NotEnoughMoney">
+<Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
+<English>You do not have enough money in your bank account.\n\nYou lack: $%1</English>
+<German>Du hast nicht genug Geld auf deinem Bankkonto.\n\nDir fehlen: $%1</German>
+<French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nVous manquez de: $%1</French>
+<Italian>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: €%1</Italian>
+<Portuguese>Você não tem dinheiro suficiente na sua conta bancária.\n\nFaltam: R$%1</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_CreateSuccess">
+<Original>You have created the gang %1 for $%2</Original>
+<English>You have created the gang %1 for $%2</English>
+<German>Du hast die Gang %1 für $%2 erstellt</German>
+<French>Vous avez créé la bande %1 pour $%2</French>
+<Italian>Hai creato la Gang %1 al costo di €%2</Italian>
+<Portuguese>Você criou a gangue %1 por R$%2</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_DisbandWarn">
+<Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
+<English>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</English>
+<German>Du bist dabei, die Gang aufzulösen. Durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
+<French>Vous vous apprêtez à dissoudre le gang, en démantelant le gang, il sera supprimé de la base de données et le groupe sera supprimé. &lt;br/&gt;&lt;br/&gt;Etes-vous sûr de vouloir dissoudre le groupe? Vous ne serez pas remboursé le prix de sa création</French>
+<Italian>Stai per sciogliere la Gang, facendolo sarà rimossa dal Database e il gruppo verrà cancellato. &lt;br/&gt;&lt;br/&gt;Sei sicuro di voler sciogliere il gruppo? Non verrai rimborsato dei fondi spesi per crearlo.</Italian>
+<Portuguese>Você vai desfazer a sua gangue, ela será apagada do banco de dados. &lt;br/&gt;&lt;br/&gt;Você tem certeza que quer desfazer a gangue? Você não será reembolsado.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_DisbandGangPro">
+<Original>Disbanding the gang...</Original>
+<English>Disbanding the gang...</English>
+<German>Gang wird aufgelöst...</German>
+<French>Démantèlement du gang ...</French>
+<Italian>Sciogliendo la Gang...</Italian>
+<Portuguese>Desfazendo gangue...</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_DisbandGangCanc">
+<Original>Disbanding cancelled</Original>
+<English>Disbanding cancelled</English>
+<German>Auflösung abgebrochen</German>
+<French>Démantèlement annulé</French>
+<Italian>Scioglimento annullato</Italian>
+<Portuguese>Cancelar ação de desfazer gangue</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_DisbandWarn_2">
+<Original>The leader has disbanded the gang.</Original>
+<English>Disbanding cancelled</English>
+<German>Der Anführer hat die Gang aufgelöst.</German>
+<French>Le chef a démantelé le gang.</French>
+<Italian>Il Capo ha sciolto la Gang</Italian>
+<Portuguese>O lider da gangue desfez a gangue.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_InviteMSG">
+<Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
+<English>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</English>
+<German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
+<French>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
+<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
+<Portuguese>%1 convidou você para a gangue %2&lt;br/&gt;Se você aceitar você terá acesso aos recursos da gangue e os esconderijos.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_InvitePlayerMSG">
+<Original>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</Original>
+<English>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</English>
+<German>Du bist dabei, %1 in deine Gang einzuladen. Wenn die Einladung angenommen wird, hat der Spieler Zugang zu den Mitteln der Gang.</German>
+<French>Vous êtes sur le point d'inviter %1 à votre gang, s'ils acceptent l'invitation, ils auront accès à des fonds du gang.</French>
+<Italian>Stai per invitare %1 nella tua Gang, se accetterà l'invito avrà accesso ai fondi della Gang.</Italian>
+<Portuguese>Você vai convidar %1 para a gangue, ele terá acesso aos recursos da gangue.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_SelectPerson">
+<Original>You need to select a person to invite!</Original>
+<English>You need to select a person to invite!</English>
+<German>Du musst einen Spieler zum Einladen auswählen!</German>
+<French>Vous devez sélectionner une personne à inviter!</French>
+<Italian>Devi selezionare una persona da invitare!</Italian>
+<Portuguese>Você tem que selecionar um jogador para convidar!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_InviteSent">
+<Original>You have sent a invite to your gang to %1</Original>
+<English>You have sent a invite to your gang to %1</English>
+<German>Du hast eine Einladung in deine Gang an %1 gesendet</German>
+<French>Vous avez envoyé une invitation à votre gang à %1</French>
+<Italian>Hai mandato l'invito alla tua Gang a %1</Italian>
+<Portuguese>Você enviou um convite para %1 se juntar a sua gangue</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_InviteCancel">
+<Original>Invitation Cancelled</Original>
+<English>Invitation Cancelled</English>
+<German>Einladung abgebrochen</German>
+<French>Invitation Annulées</French>
+<Italian>Invito Annullato</Italian>
+<Portuguese>Convite Cancelado</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_KickSelf">
+<Original>You cannot kick yourself!</Original>
+<English>You cannot kick yourself!</English>
+<German>Du kannst dich nicht selbst kicken!</German>
+<French>Vous ne pouvez pas kicker vous-même!</French>
+<Italian>Non puoi espellerti da solo!</Italian>
+<Portuguese>Você não pode kickar você mesmo!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_MaxSlot">
+<Original>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</Original>
+<English>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</English>
+<German>Deine Gang hat die maximale Anzahl an Plätzen erreicht, bitte erhöhe das Limit deiner Gang.</German>
+<French>Votre gang à atteint le nombre de membre maximum, veuillez augmenter cette limite.</French>
+<Italian>la tua Gang ha raggiungo il numero massimo di posti consentiti, aumentane il limite.</Italian>
+<Portuguese>Sua gangue está lotada, você deve aumentar o número máximo de jogadores.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_SelectKick">
+<Original>You need to select a person to kick!</Original>
+<English>You need to select a person to kick!</English>
+<German>Du musst einen Spieler auswählen, um ihn kicken zu können!</German>
+<French>Vous devez choisir une personne pour le kick!</French>
+<Italian>Devi selezionare una persona da espellere!</Italian>
+<Portuguese>Você tem que selecionar um jogador para kickar!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_LeaderLeave">
+<Original>You cannot leave the gang without appointing a new leader first!</Original>
+<English>You cannot leave the gang without appointing a new leader first</English>
+<German>Du kannst die Gang nicht verlassen, ohne einen neuen Anführer zu ernennen!</German>
+<French>Vous ne pouvez pas quitter le gang sans la nomination d'un nouveau chef d'abord!</French>
+<Italian>Non puoi abbandonare la Gang prima di aver selezionato un nuovo Capo!</Italian>
+<Portuguese>Você não pode sair da gangue sem transferir a liderança antes!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_TransferMSG">
+<Original>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</Original>
+<English>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</English>
+<German>Du bist dabei, die Führung an %1 zu übertragen&lt;br/&gt;Durch die Übertragung der Leitung der Gang hast du keine Kontrolle mehr.</German>
+<French>Vous allez transférer le commandement à %1&lt;br/&gt;En transférant le commandement, vous ne serez plus le chef du gang, sauf si le commandement est transféré de nouveau.</French>
+<Italian>Stai per traferire il comando a %1&lt;br/&gt;Facendolo non avrai più il controllo della Gang fino a quando non ti verrà restituito il comando.</Italian>
+<Portuguese>Você vai transferir a liderança da gangue para %1&lt;br/&gt;Você não será mais o lider da gangue.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_TransferCancel">
+<Original>Transfer of leadership cancelled.</Original>
+<English>Transfer of leadership cancelled.</English>
+<German>Übertragung der Leitung abgebrochen.</German>
+<French>Transfert du commandement annulée.</French>
+<Italian>Trasferimento del comando annullato.</Italian>
+<Portuguese>Transferencia de liderança cancelada.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_TransferSelf">
+<Original>You are already the leader!</Original>
+<English>You are already the leader!</English>
+<German>Du bist bereits der Anführer!</German>
+<French>Vous êtes déjà leader!</French>
+<Italian>Sei già il Capo!</Italian>
+<Portuguese>Você já está na liderança!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_TransferSelect">
+<Original>You need to select a person first!</Original>
+<English>You need to select a person first!</English>
+<German>Du musst erst eine Person auswählen!</German>
+<French>Vous devez choisir une personne d'abord!</French>
+<Italian>Devi selezionare una persona!</Italian>
+<Portuguese>Você tem que selecionar um jogador antes!</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_MaxMemberMSG">
+<Original>You are about to upgrade the maximum members allowed for your gang.</Original>
+<English>You are about to upgrade the maximum members allowed for your gang.</English>
+<German>Du bist dabei, die maximale Anzahl an Mitgliedern zu erhöhen.</German>
+<French>Vous êtes sur le point de mettre à niveau la limite de membre autorisées pour votre gang.</French>
+<Italian>Stai aumentando il numero massimo di membri consentiti all'interno della tua Gang</Italian>
+<Portuguese>Você vai atualizar o limite de membros da gangue.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_CurrentMax">
+<Original>Current Max: %1</Original>
+<English>Current Max: %1</English>
+<German>Aktuelles Maximum: %1</German>
+<French>Max actuelle: %1</French>
+<Italian>Attuali Max: %1</Italian>
+<Portuguese>Número máximo atual: %1</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_UpgradeMax">
+<Original>Upgraded Max: %2</Original>
+<English>Upgraded Max: %2</English>
+<German>Maximum erhöhen: %2</German>
+<French>Mise à niveau Max: %2</French>
+<Italian>Aumento Max: %2</Italian>
+<Portuguese>Novo número máximo: %2</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Price">
+<Original>Price:</Original>
+<English>Price:</English>
+<German>Preis:</German>
+<French>Prix:</French>
+<Italian>Costo:</Italian>
+<Portuguese>Preço:</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_NotEoughMoney_2">
+<Original>You do not have enough money in your bank account to upgrade the gangs maximum member limit.</Original>
+<English>You do not have enough money in your bank account to upgrade the gangs maximum member limit.</English>
+<German>Du hast nicht genug Geld auf deinem Bankkonto, um das Mitgliederlimit deiner Gang zu erhöhen.</German>
+<French>Vous n'avez pas assez d'argent dans votre compte de banque pour mettre à niveau la limite de membre maximale.</French>
+<Italian>Non hai abbastanza fondi nel tuo conto in banca per aumentare il limite massimo di membri.</Italian>
+<Portuguese>Você não dinheiro suficiente para para aumentar o limite da gangue.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Current">
+<Original>Current:</Original>
+<English>Current:</English>
+<German>Aktuell:</German>
+<French>Actuel:</French>
+<Italian>Attuale:</Italian>
+<Portuguese>Atual:</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Lacking">
+<Original>Lacking:</Original>
+<English>Lacking:</English>
+<German>Fehlend:</German>
+<French>Manquant:</French>
+<Italian>Mancanza:</Italian>
+<Portuguese>Faltando:</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_UpgradeSuccess">
+<Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
+<English>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</English>
+<German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
+<French>Vous avez mis à niveau à partir de %1 à %2 membres maximum for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
+<Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
+<Portuguese>Limite de membros atualizado de %1 para %2 por &lt;t color='#8cff9b'&gt;R$%3&lt;/t&gt;</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_UpgradeCancel">
+<Original>Upgrade cancelled.</Original>
+<English>Upgrade cancelled.</English>
+<German>Aufwertung abgebrochen.</German>
+<French>Mise à jour annulée.</French>
+<Italian>Aumento annullato.</Italian>
+<Portuguese>Cancelar Upgrade.</Portuguese>
+</Key>
+<Key ID="STR_GNOTF_Funds">
+<Original>Funds:</Original>
+<English>Funds:</English>
+<German>Geld:</German>
+<French>Fonds:</French>
+<Italian>Fondi</Italian>
+<Portuguese>Recursos:</Portuguese>
+</Key>
+<Key ID='STR_GNOTF_GangLeader'>
+<Original>(Gang Leader)</Original>
+<English>(Gang Leader)</English>
+<German>(Anführer)</German>
+<French>(Gang Leader)</French>
+<Italian>(Capo Gang)</Italian>
+<Portuguese>(Lider da Gangue)</Portuguese>
+</Key>
+		<Key ID="STR_PM_WantedList">
+			<Original>Wanted List</Original>
+		</Key>
+		<Key ID="STR_PM_CellPhone">
+			<Original>Cell Phone</Original>
+		</Key>
+		<Key ID="STR_PM_KeyChain">
+			<Original>Key Chain</Original>
+		</Key>
+		<Key ID="STR_PM_AdminMenu">
+			<Original>Admin Menu</Original>
+		</Key>
+		<Key ID="STR_PM_SyncData">
+			<Original>Sync Data</Original>
+		</Key>
+	</Package>
+	<Package name="Settings_Menu">
+		<Key ID="STR_SM_Title">
+			<Original>Settings Menu</Original>
+		</Key>
+		<Key ID="STR_SM_onFoot">
+			<Original>On Foot:</Original>
+		</Key>
+		<Key ID="STR_SM_inCar">
+			<Original>In Car:</Original>
+		</Key>
+		<Key ID="STR_SM_inAir">
+			<Original>In Air:</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip1">
+			<Original>View distance while on foot</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip2">
+			<Original>View distance while in a land vehicle</Original>
+		</Key>
+		<Key ID="STR_SM_ToolTip3">
+			<Original>View distance while in a air vehicle</Original>
+		</Key>
+		<Key ID="STR_SM_PlayerTags">
+			<Original>Player Tags</Original>
+		</Key>
+		<Key ID="STR_SM_TagsON">
+			<Original>Tags ON</Original>
+		</Key>
+		<Key ID="STR_SM_TagsOFF">
+			<Original>Tags OFF</Original>
+		</Key>
+		<Key ID="STR_SM_SC">
+			<Original>Sidechat Settings</Original>
+		</Key>
+		<Key ID="STR_SM_SCOFF">
+			<Original>Sidechat OFF</Original>
+		</Key>
+		<Key ID="STR_SM_SCON">
+			<Original>Sidechat ON</Original>
+		</Key>
+	</Package>
+	<Package name="Virt_Shop">
+		<Key ID="STR_VS_SI">
+			<Original>Shop Inventory</Original>
+		</Key>
+		<Key ID="STR_VS_PI">
+			<Original>Your Inventory</Original>
+		</Key>
+		<Key ID="STR_VS_BuyItem">
+			<Original>Buy Item</Original>
+		</Key>
+		<Key ID="STR_VS_SellItem">
+			<Original>Sell Item</Original>
+		</Key>
+	</Package>
+	<Package name="Spawn_Menu">
+		<Key ID="STR_Spawn_Title">
+			<Original>Spawn Selection</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawn">
+			<Original>Spawn</Original>
+		</Key>
+		<Key ID="STR_Spawn_CSP">
+			<Original>Current Spawn Point</Original>
+		</Key>
+		<Key ID="STR_Spawn_Spawned">
+			<Original>You have spawned at</Original>
+		</Key>
+	</Package>
+	<Package name="Ticket_Menu">
+		<Key ID="STR_Ticket_GiveTicket">
+			<Original>Give Ticket</Original>
+		</Key>
+		<Key ID="STR_Ticket_PayTicket">
+			<Original>Pay Ticket</Original>
+		</Key>
+		<Key ID="STR_Ticket_RefuseTicket">
+			<Original>Refuse Ticket</Original>
+		</Key>
+	</Package>
+	<Package name="Trunk_Menu">
+		<Key ID="STR_Trunk_TInventory">
+			<Original>Trunk Inventory</Original>
+		</Key>
+		<Key ID="STR_Trunk_PInventory">
+			<Original>Player Inventory</Original>
+		</Key>
+		<Key ID="STR_Trunk_Take">
+			<Original>Take</Original>
+		</Key>
+		<Key ID="STR_Trunk_Store">
+			<Original>Store</Original>
+		</Key>
+	</Package>
+	<Package name="Wanted_Menu">
+		<Key ID="STR_Wanted_Title">
+			<Original>APD Wanted List</Original>
+		</Key>
+		<Key ID="STR_Wanted_Pardon">
+			<Original>Pardon</Original>
+		</Key>
+	</Package>
+	<Package name="Animals">
+		<Key ID="STR_ANIM_Salema">
+			<Original>Salema</Original>
+		</Key>
+		<Key ID="STR_ANIM_Ornate">
+			<Original>Ornate</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mackerel">
+			<Original>Mackerel</Original>
+		</Key>
+		<Key ID="STR_ANIM_Tuna">
+			<Original>Tuna</Original>
+		</Key>
+		<Key ID="STR_ANIM_Mullet">
+			<Original>Mullet</Original>
+		</Key>
+		<Key ID="STR_ANIM_Catshark">
+			<Original>Cat Shark</Original>
+		</Key>
+		<Key ID="STR_ANIM_Rabbit">
+			<Original>Rabbit</Original>
+		</Key>
+	</Package>
+	<Package name="Notifications">
+		<Key ID="STR_NOTF_NE_1">
+			<Original>You do not have $%1 for a %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_B_1">
+			<Original>You bought a %1 for $%2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Arrested_1">
+			<Original>%1 was arrested by %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Fishing">
+			<Original>You caught a %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_CaughtTurtle">
+			<Original>You have taken some turtle meat</Original>
+		</Key>
+		<Key ID="STR_NOTF_Earned_1">
+			<Original>You have earned $%1</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDrop">
+			<Original>Dropping fishing net....</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetDropFail">
+			<Original>Didn't catch any fish..</Original>
+		</Key>
+		<Key ID="STR_NOTF_NetUp">
+			<Original>Fishing net pulled up.</Original>
+		</Key>
+		<Key ID="STR_NOTF_InvFull">
+			<Original>Your inventory space is full.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Gathering">
+			<Original>Gathering %1...</Original>
+		</Key>
+		<Key ID="STR_NOTF_ChopSoldCar">
+			<Original>You have sold a %1 for $%2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Picked">
+			<Original>You have picked %1 %2</Original>
+		</Key>
+		<Key ID="STR_NOTF_Collected">
+			<Original>You have collected some %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPStart">
+			<Original>You are to deliver this package to %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPTask">
+			<Original>Deliver this package to %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DPFailed">
+			<Original>You failed to deliver the package because you died.</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_NoCash">
+			<Original>You do not have $%1 to be healed</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healing">
+			<Original>Please stay still</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_ToFar">
+			<Original>You need to be within 5m while the doctor is healing you</Original>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healed">
+			<Original>You are now fully healed.</Original>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpounded">
+			<Original>%1 your %2 is being impounded by the police.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounding">
+			<Original>Impounding Vehicle</Original>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelled">
+			<Original>Impounding has been cancelled.</Original>
+		</Key>
+		<Key ID="STR_NOTF_Impounded">
+			<Original>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</Original>
+		</Key>
+		<Key ID="STR_NOTF_HasImpounded">
+			<Original>%1 has impounded %2's %3</Original>
+		</Key>
+		<Key ID="STR_NOTF_AbortESC">
+			<Original>Abort available in %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceIsMining">
+			<Original>This vehicle is already mining</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceFull">
+			<Original>The vehicle is full</Original>
+		</Key>
+		<Key ID="STR_NOTF_notNearResource">
+			<Original>You are not near a resource field</Original>
+		</Key>
+		<Key ID="STR_NOTF_MiningStopped">
+			<Original>You cannot turn the vehicle on when mining</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMining">
+			<Original>The Device is mining...</Original>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMined">
+			<Original>Completed cycle, the device has mined %1</Original>
+		</Key>
+		<Key ID="STR_NOTF_OutOfFuel">
+			<Original>Vehicle is out of fuel</Original>
+		</Key>
+	</Package>
+	<Package name="Life_Items">
+		<Key ID="STR_Item_Cannabis">
+			<Original>Cannabis</Original>
+		</Key>
+		<Key ID="STR_Item_Apple">
+			<Original>Apple</Original>
+		</Key>
+		<Key ID="STR_Item_Apples">
+			<Original>Apples</Original>
+		</Key>
+		<Key ID="STR_Item_Cocaine">
+			<Original>Cocaine</Original>
+		</Key>
+		<Key ID="STR_Item_Heroin">
+			<Original>Heroin</Original>
+		</Key>
+		<Key ID="STR_Item_Oil">
+			<Original>Oil</Original>
+		</Key>
+		<Key ID="STR_Item_Peach">
+			<Original>Peach</Original>
+		</Key>
+		<Key ID="STR_Item_Peaches">
+			<Original>Peaches</Original>
+		</Key>
+	</Package>
+	<Package name="Federal_Reserve">
+		<Key ID="STR_NOTF_FRRobbery_fail">
+			<Original>The robbery has failed due to unknown reasons</Original>
+		</Key>
+		<Key ID="STR_NOTF_FRRobbery_Success">
+			<Original>$%1 was stolen from the robbery on the federal reserve</Original>
+		</Key>
+		<Key ID="STR_FEDR_VInUse">
+			<Original>This vault is already being robbed by someone else</Original>
+		</Key>
+		<Key ID="STR_FEDR_VRecently">
+			<Original>This vault was already robbed recently</Original>
+		</Key>
+	</Package>
+	<Package name="Player_Interaction">
+		<Key ID="STR_pInAct_Title">
+			<Original>Player Interaction Menu</Original>
+		</Key>
+		<Key ID="STR_pInAct_Drugtest">
+			<Original>Drogentest</Original>
+		</Key>
+		<Key ID="STR_pInAct_RobPerson">
+			<Original>Ausrauben</Original>
+		</Key>
+		<Key ID="STR_pInAct_Entwaffnen">
+			<Original>Entwaffnen</Original>
+		</Key>
+		<Key ID="STR_pInAct_Entwaffnen2">
+			<Original>Entwaffnen Obj</Original>
+			</Key>
+		<Key ID="STR_pInAct_PutInCar">
+			<Original>Put in vehicle</Original>
+		</Key>
+		<Key ID="STR_pInAct_Unrestrain">
+			<Original>Un-Restrain</Original>
+		</Key>
+		<Key ID="STR_pInAct_checkLicenses">
+			<Original>Check Licenses</Original>
+		</Key>
+		<Key ID="STR_pInAct_SearchPlayer">
+			<Original>Search Player</Original>
+		</Key>
+		<Key ID="STR_pInAct_StopEscort">
+			<Original>Stop Escorting</Original>
+		</Key>
+		<Key ID="STR_pInAct_Escort">
+			<Original>Escort Player</Original>
+		</Key>
+		<Key ID="STR_pInAct_TicketBtn">
+			<Original>Ticket Player</Original>
+		</Key>
+		<Key ID="STR_pInAct_Arrest">
+			<Original>Send to jail</Original>
+		</Key>
+		<Key ID="STR_pInAct_DepositToGang">
+<Original>Deposit To Gang</Original>
+		</Key>
+	</Package>
+	<Package name="Vehicle_Interaction">
+		<Key ID="STR_vInAct_Title">
+			<Original>Vehicle Interaction Menu</Original>
+		</Key>
+		<Key ID="STR_vInAct_Unflip">
+			<Original>Unflip Vehicle</Original>
+		</Key>
+		<Key ID="STR_vInAct_GetInKart">
+			<Original>Get In Kart</Original>
+		</Key>
+		<Key ID="STR_vInAct_PushBoat">
+			<Original>Push Boat</Original>
+		</Key>
+		<Key ID="STR_vInAct_Repair">
+			<Original>Repair Vehicle</Original>
+		</Key>
+		<Key ID="STR_vInAct_Registration">
+			<Original>Registration</Original>
+		</Key>
+		<Key ID="STR_vInAct_SearchVehicle">
+			<Original>Search Vehicle</Original>
+		</Key>
+		<Key ID="STR_vInAct_PullOut">
+			<Original>Pullout Players</Original>
+		</Key>
+		<Key ID="STR_vInAct_Impound">
+			<Original>Impound Vehicle</Original>
+		</Key>
+		<Key ID="STR_vInAct_DeviceMine">
+			<Original>Mine from device</Original>
+		</Key>
+	</Package>
+</Project>
